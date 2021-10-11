@@ -38,7 +38,7 @@ class minhaClasse {
     }
 
     for (int j = 0; j < 10; j++) {
-      Console.WriteLine($"N[{j}] = {n[j]}");
+      Console.WriteLine("N[{0}] = {1}", j , n [j]);
     }
   }
 }
